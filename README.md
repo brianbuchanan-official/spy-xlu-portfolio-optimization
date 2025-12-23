@@ -1,16 +1,14 @@
 # 📊 SPY vs XLU Portfolio Optimization (2020–2025)
 
 ## Executive Summary
-This project applies **Mean–Variance Portfolio Optimization (MVO)** to analyze the optimal allocation between **SPY (S&P 500 ETF)** and **XLU (Utilities Select Sector ETF)** using daily historical data from 2020–2025. The analysis evaluates return, volatility, and correlation dynamics to construct an **efficient frontier** and identify the **minimum-variance portfolio**. Results show that incorporating a small defensive allocation to XLU materially reduces portfolio risk while preserving nearly the full equity return profile of SPY.
+This project applies **Mean–Variance Portfolio Optimization (MVO)** to analyze the optimal allocation between **SPY (S&P 500 ETF)** and **XLU (Utilities Select Sector ETF)** using daily historical data from 2020–2025. The analysis evaluates return, volatility, and correlation dynamics to construct an **efficient frontier** and identify the **minimum-variance portfolio**. Results show that incorporating a small defensive allocation to XLU reduces portfolio risk while preserving nearly the full equity return profile of SPY.
 
 ---
 
 ## Business Problem
-Equity-heavy portfolios offer strong long-term growth but expose investors to elevated volatility and drawdown risk. This project addresses the following question:
+Equity-heavy portfolios can deliver strong long-term growth but expose investors to elevated volatility and drawdown risk. This project answers:
 
 **Can diversification into a defensive sector ETF reduce portfolio risk without materially sacrificing returns?**
-
-Using a quantitative optimization framework, this analysis evaluates whether combining SPY with XLU improves overall portfolio efficiency.
 
 ---
 
@@ -23,20 +21,18 @@ Using a quantitative optimization framework, this analysis evaluates whether com
 - **Sharpe Ratio:** **0.72** (risk-free rate assumed at 0%)
 - **SPY–XLU Correlation:** **0.48**
 
-Despite SPY dominating long-term growth, the inclusion of XLU provides meaningful diversification benefits by lowering overall portfolio variance.
-
 ---
 
 ## Visual Analysis
 
 ### Indexed Growth of $1 Investment
-![Indexed Growth](assets/img/spy_xlu_indexed_growth.png)
+![Indexed Growth](SPY_XLU_Portfolio_Optimization/assets/img/spy_xlu_indexed_growth.png)
 
 ### Minimum-Variance Portfolio Allocation
-![Min Variance Allocation](assets/img/spy_xlu_min_variance_allocation.png)
+![Min Variance Allocation](SPY_XLU_Portfolio_Optimization/assets/img/spy_xlu_min_variance_allocation.png)
 
 ### Efficient Frontier — SPY / XLU Portfolios
-![Efficient Frontier](assets/img/spy_xlu_efficient_frontier.png)
+![Efficient Frontier](SPY_XLU_Portfolio_Optimization/assets/img/spy_xlu_efficient_frontier.png)
 
 ---
 
@@ -62,16 +58,16 @@ The efficient frontier was constructed by evaluating expected return and volatil
 ---
 
 ## Files in This Repository
-- **Excel Model:**  
-  📥 [SPY_XLU_Portfolio_Optimization_Web.xlsx](excel/SPY_XLU_Portfolio_Optimization_Web.xlsx)
+📥 **Download the Excel model:**  
+[SPY_XLU_Portfolio_Optimization_Web.xlsx](SPY_XLU_Portfolio_Optimization/excel/SPY_XLU_Portfolio_Optimization_Web.xlsx)
 
-- **Images:**  
-  Exported charts used in this README are located in `assets/img/`
+**Images:** Exported charts used in this README are located in:  
+`SPY_XLU_Portfolio_Optimization/assets/img/`
 
 ---
 
 ## Key Takeaway
-Even a small allocation to a defensive sector ETF can significantly improve portfolio risk efficiency. This project demonstrates how **quantitative portfolio construction techniques** can support better asset allocation decisions in real-world investment contexts.
+Even a small allocation to a defensive sector ETF can improve portfolio risk efficiency. This project demonstrates how **quantitative portfolio construction techniques** support better asset allocation decisions in real-world investment contexts.
 
 ---
 
